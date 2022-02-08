@@ -1,0 +1,37 @@
+body
+{
+    background: #000;
+}
+.family_caveat
+{
+    font-family: 'Caveat';
+}
+
+
+.family_tangerine
+{
+font-family: 'Tangerine';
+}
+
+.family_aclonica
+{
+    font-family: 'aclonica';
+}
+
+
+.img 
+{
+position: absolute;
+left: 270px;
+top: 70px;
+}
+
+.text
+{
+    position: absolute;
+left: 110px;
+top: 250px;
+font-size: 42px;
+color: white;
+text-align: center;
+}

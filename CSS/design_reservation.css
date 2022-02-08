@@ -1,0 +1,139 @@
+body
+{
+    background: #000;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.family_caveat
+{
+    font-family: 'Caveat';
+}
+
+
+.family_tangerine
+{
+font-family: 'Tangerine';
+}
+
+.family_aclonica
+{
+    font-family: 'aclonica';
+}
+
+.one_text
+{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 530px;
+    top: 10px;
+}
+
+.one_heading
+{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+}
+
+.one_img
+{
+    position: absolute;
+    left: -300px;
+    top: 200px;
+}
+
+.send
+{
+    position: absolute;
+    left: 610px;
+    top: 550px;
+}
+
+.cell 
+/* Ячейка */
+{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.cell1 
+/* Ячейка */
+{
+    position: absolute;
+    left: 500px;
+    top: 280px;
+}
+.cell2 
+/* Ячейка */
+{
+    position: absolute;
+    left: 500px;
+    top: 360px;
+}
+.cell3 
+/* Ячейка */
+{
+    position: absolute;
+    left: 500px;
+    top: 440px;
+}
+
+.box
+{
+    width: 360px;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 155px;
+    left: 455px;
+}
+
+.box form .input_block input
+{
+    width: 100%;
+    background: transparent;
+    height: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.box form .input_block input:focus ~ label,
+.box form .input_block input:valid ~ label
+{
+ top: -5px;
+ font-size: 14px;
+}
+
+
+.box form .input_block input:focus
+{
+    outline: none;
+}
+
+.box form .input_block
+{
+    position: relative;
+    
+}
+
+.box form .input_block label
+{
+    color: #000000;
+    position: absolute;
+    transition: 0.5s;
+    top: 12px;
+    left: 0;
+    font-size: 19px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    pointer-events: none;
+}

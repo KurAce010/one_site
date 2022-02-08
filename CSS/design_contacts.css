@@ -1,0 +1,79 @@
+body
+{
+    background: #000;
+    overflow-x:hidden;
+}
+
+.family_caveat
+{
+    font-family: 'Caveat';
+}
+
+
+.family_tangerine
+{
+font-family: 'Tangerine';
+}
+
+.family_aclonica
+{
+    font-family: 'aclonica';
+}
+
+.hat
+{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 640px; 
+    word-spacing:80px;
+    color: white;
+}
+
+
+a
+{
+    color: white;
+    text-decoration: none; /*Убирает линию ссылки*/
+}
+
+
+.one_heading
+{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    position: absolute;
+    left: 430px;
+    top: 60px;
+}
+
+.one_text_heading
+{
+    color: white;
+    font-size: 55px;
+    width: 900px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 220px;
+    top: 150px;
+}
+
+.fon
+{
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+.one_heading {z-index: 2;}
+.one_text_heading{z-index: 2;}
+.fon {z-index: 1;}
+.podval{z-index: 3;}
+
+
+.podval
+{
+    position: absolute;
+    top: 650px;
+}

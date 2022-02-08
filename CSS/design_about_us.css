@@ -1,0 +1,92 @@
+body
+{
+    background: #000;
+    overflow-x:hidden;
+}
+
+.family_caveat
+{
+    font-family: 'Caveat';
+}
+
+.hat
+{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 640px; 
+    word-spacing:80px;
+    color: white;
+}
+
+a
+{
+    color: white;
+    text-decoration: none; /*Убирает линию ссылки*/
+}
+
+
+.fon_img
+{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.table
+{
+    position: absolute;
+    top: 70px;
+    left: 700px;
+    
+}
+
+
+.about_us
+{
+    position: absolute;
+    top: 180px;
+    left: 705px;
+    color: black;
+    font-size: 25px;
+    font-family: caveat;
+}
+
+.welcome
+{
+    position: absolute;
+    top: 210px;
+    left: 745px;
+    color: rgb(66, 101, 41);
+    font-size: 25px;
+    font-family: Aclonica;
+}
+
+.text_1
+{
+    position: absolute;
+    top: 250px;
+    left: 740px;
+    color: black;
+    font-size: 30px;
+    font-family: caveat;
+    width: 450px;
+    /* Отступ между строками */
+    line-height: 25px;
+    /* Выравние */
+    text-align: center;  
+}
+
+.fon_img {z-index: 1;}
+.table {z-index: 2;}
+.about_us {z-index: 3;}
+.welcome{z-index: 4;}
+.text_1{z-index: 5;}
+
+
+.podval
+{
+    position: absolute;
+    top: 900px;
+    left: -10px;
+}

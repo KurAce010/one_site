@@ -1,0 +1,104 @@
+
+body
+{
+    background: #000;
+    background-image: url("Фон левой части.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    overflow-x:hidden;  /*для горизонтального скролла, его отключение*/ 
+}
+
+a
+{
+    color: white;
+    text-decoration: none; /*Убирает линию ссылки*/
+}
+p
+{
+    color: rgb(255, 255, 255);
+}
+/*  @CAVEAT@ */
+.family_caveat
+{
+    font-family: 'Caveat';
+}
+/* Позиционирование шапки */
+.hat
+{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 640px; 
+    word-spacing:80px;
+}
+
+.family_aclonica
+{
+    font-family: 'aclonica';
+    /* От этого не зависит, подключил в хеад. */
+}
+
+.one_heading
+{
+    font-size: 48px;
+    line-height: 0px; /*Расстояние между строками*/
+    position: absolute;
+    top: 210px; 
+    left: 119px;
+}
+
+.one_heading_text
+{
+    font-size: 30px;
+    width: 612px;
+    height: 177px;
+    position: absolute;
+    top: 335px; 
+    left: 119px;
+}
+
+.logo_site
+{
+    position: absolute;
+    top: 20px; 
+    left: 119px;
+}
+
+.buttom /*Кнопка*/
+{
+    position: absolute;
+    top: 200px; 
+    left: 750px;
+}
+
+
+.plate /*тарелка*/
+{
+    position: absolute;
+    top: 443px; 
+    left: 600px;
+} 
+
+.bottle
+{
+    position: absolute;
+    top: 100px; 
+    left: 1170px;
+}
+
+.plate {z-index: 2;}
+.bottle {z-index: 1;} /* Порядок слоев */
+
+.mishlen
+{
+    position: absolute;
+    top: 780px;
+    left: 1250px;
+}
+
+.podval
+{
+    position: absolute;
+    top: 900px;
+    left: -10px;
+}
